@@ -7,9 +7,10 @@ h2{
 }
 
 h3{
-  color: #940f1e;
+  color: #e60000;
   border-bottom: 4px dotted grey;
   text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 body{
@@ -18,7 +19,7 @@ body{
   font-family: "Raleway";
 }
 
-img{
+.header img{
   width: 675px;
 }
 
@@ -36,4 +37,30 @@ img{
   background-color: lightgrey;
   border: 1px dotted lightgrey;
   padding-left: 20px;
+}
+
+
+.footnotes img{
+  float: right;
+}
+
+.topping h3{
+  border-bottom: none;
+}
+
+.toppings p{
+  color: grey;
+}
+
+.note p{
+  color: grey;
+}
+
+.footnotes p{
+  color: grey;
+}
+
+span{
+  font-weight: bold;
+  color: black;
 }
